@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <category display_value="ITSM IT Issues">140e2eda0b203300a1b16c2367673af4</category>
+        <connect_queue/>
+        <description/>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.16",
+  "goals": {
+    "bb8a99aa387947f4b4ee677f0d2c09cc": {
+      "id": "bb8a99aa387947f4b4ee677f0d2c09cc",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "224d20edae87485b841bff79497e4258": {
+          "id": "224d20edae87485b841bff79497e4258",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "2548d627d8c44ed0ba74af0d7b3f7274": {
+          "id": "2548d627d8c44ed0ba74af0d7b3f7274",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "cfc6c6be01934a4588379ce3033f3ac4",
+          "edgeType": "Edge",
+          "source": "224d20edae87485b841bff79497e4258",
+          "target": "2548d627d8c44ed0ba74af0d7b3f7274",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {}
+}</graph>
+        <key_phrases>Internet Issue,no internet connection,unable access vpn</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Internet Issue</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <roles/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-04-23 06:43:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>21c9fad6db101010a860656b4b961974</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Internet Issue</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_cb_topic_21c9fad6db101010a860656b4b961974</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-04-23 06:43:17</sys_updated_on>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=21c9fad6db101010a860656b4b961974"/>
+</record_update>
