@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="NeedIt">42427f010fe83200cd674f8ce1050e42</application>
+        <filter/>
+        <name>NeedIt Tests</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_58872_needit.needit_test_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-07 07:38:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8cbc8bb2dba01010a860656b4b961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Tests</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ui_module_8cbc8bb2dba01010a860656b4b961907</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-07 07:38:35</sys_updated_on>
+        <table>x_58872_needit_needit_test</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>e30bc136db58b34052dd2f17d49619d7</instance_id>
+        <instance_name>dev76847</instance_name>
+        <name>sys_ui_module_8cbc8bb2dba01010a860656b4b961907</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="NeedIt">42427f010fe83200cd674f8ce1050e42</application><filter/><name>NeedIt Tests</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_58872_needit.needit_test_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-07 07:38:35</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8cbc8bb2dba01010a860656b4b961907</sys_id><sys_mod_count>0</sys_mod_count><sys_name>NeedIt Tests</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_ui_module_8cbc8bb2dba01010a860656b4b961907</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-07 07:38:35</sys_updated_on><table>x_58872_needit_needit_test</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>-992441414</payload_hash>
+        <record_name>NeedIt Tests</record_name>
+        <reverted_from/>
+        <source>0f2c8e02db501010a860656b4b96196f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-07 07:38:35</sys_created_on>
+        <sys_id>c8bc8bb2dba01010a860656b4b96190a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>171ee1267ff0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-07 07:38:35</sys_updated_on>
+        <type>Module</type>
+        <update_guid>04bc8bb2e8a010106d8146ce8fa2fe0a</update_guid>
+        <update_guid_history>04bc8bb2e8a010106d8146ce8fa2fe0a:-992441414</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-07 08:13:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>135c35b9731749ec9b6c57549f465031</sys_id>
+        <sys_metadata>8cbc8bb2dba01010a860656b4b961907</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Tests</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ui_module_8cbc8bb2dba01010a860656b4b961907</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_8cbc8bb2dba01010a860656b4b961907">c8bc8bb2dba01010a860656b4b96190a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-07 08:13:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
